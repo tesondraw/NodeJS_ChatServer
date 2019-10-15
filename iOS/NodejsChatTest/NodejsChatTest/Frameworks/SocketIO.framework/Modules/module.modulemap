@@ -1,5 +1,5 @@
 framework module SocketIO {
-  umbrella header "Socket.IO-Client-Swift-umbrella.h"
+  umbrella header "SocketIO.h"
 
   export *
   module * { export * }

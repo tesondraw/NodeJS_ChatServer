@@ -10,11 +10,8 @@
 		0CBE5C0E20E4E5BE007B2470 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBE5C0D20E4E5BD007B2470 /* libicucore.tbd */; };
 		0CBE5C1020E4E738007B2470 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBE5C0F20E4E738007B2470 /* Starscream.framework */; };
 		0CBE5C1120E4E749007B2470 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CBE5C0F20E4E738007B2470 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		393A44DC2355BA27002B7DA7 /* libswiftCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 393A44DB2355B7A2002B7DA7 /* libswiftCore.tbd */; };
 		393A44DD2355BBB0002B7DA7 /* ToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58401F411F4D2F4D00553876 /* ToolKit.framework */; };
 		393A44DE2355BBB0002B7DA7 /* ToolKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58401F411F4D2F4D00553876 /* ToolKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		39805C882355C5F300961BB1 /* libswiftCore.tbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 393A44DB2355B7A2002B7DA7 /* libswiftCore.tbd */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		39805C892355C60700961BB1 /* libswiftCore.tbd in Resources */ = {isa = PBXBuildFile; fileRef = 393A44DB2355B7A2002B7DA7 /* libswiftCore.tbd */; };
 		58401F2A1F4D2E4C00553876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58401F291F4D2E4C00553876 /* main.m */; };
 		58401F2D1F4D2E4C00553876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58401F2C1F4D2E4C00553876 /* AppDelegate.m */; };
 		58401F301F4D2E4C00553876 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58401F2F1F4D2E4C00553876 /* ViewController.m */; };
@@ -35,7 +32,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				39805C882355C5F300961BB1 /* libswiftCore.tbd in CopyFiles */,
 				0CBE5C1120E4E749007B2470 /* Starscream.framework in CopyFiles */,
 				58401F7C1F4D7B2A00553876 /* Jetfire.framework in CopyFiles */,
 				58401F7B1F4D7B2000553876 /* SocketIO.framework in CopyFiles */,
@@ -72,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393A44DC2355BA27002B7DA7 /* libswiftCore.tbd in Frameworks */,
 				0CBE5C0E20E4E5BE007B2470 /* libicucore.tbd in Frameworks */,
 				58401F441F4D34C400553876 /* SocketIO.framework in Frameworks */,
 				0CBE5C1020E4E738007B2470 /* Starscream.framework in Frameworks */,
@@ -210,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39805C892355C60700961BB1 /* libswiftCore.tbd in Resources */,
 				58401F381F4D2E4C00553876 /* LaunchScreen.storyboard in Resources */,
 				58401F351F4D2E4C00553876 /* Assets.xcassets in Resources */,
 				58401F331F4D2E4C00553876 /* Main.storyboard in Resources */,
@@ -348,7 +342,6 @@
 		58401F3D1F4D2E4C00553876 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ETK8HD5BZL;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -375,7 +368,6 @@
 		58401F3E1F4D2E4C00553876 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ETK8HD5BZL;
 				FRAMEWORK_SEARCH_PATHS = (
